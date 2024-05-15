@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Recommended",
+  "compilerOptions": {
+    "strict": true,
+    "module": "CommonJS",
+    "paths": { "@/*": ["./src/*"] },
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "target": "ES2016",
+    "skipLibCheck": true
+  }
+}
