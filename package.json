@@ -1,9 +1,8 @@
 {
   "name": "http-server",
   "scripts": {
-    "dev": "npx nodemon dist/index.js",
-    "prebuild": "rm -fr dist",
-    "build": "npx tsc -w"
+    "build": "rm -fr dist && npx tsc -w",
+    "dev": "npx nodemon dist/index.js"
   },
   "devDependencies": {
     "@types/node": "^20.12.12",
