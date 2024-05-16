@@ -3,7 +3,7 @@ import { createServer } from "node:http";
 const server = createServer();
 
 server.on("request", (req, res) => {
-  console.log("A request received.");
+  console.log("A request was received");
   res.end("John Doe");
 });
 
